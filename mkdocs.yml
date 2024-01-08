@@ -1,0 +1,13 @@
+site_name: GameApp Docs
+theme:
+  name: material
+  language: ru
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - md_in_html
+  - abbr
+  - pymdownx.snippets
+
+  
