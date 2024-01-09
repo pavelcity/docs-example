@@ -1,7 +1,5 @@
 # GameAppDocs
 
-*[HTML]: Hyper Text Markup Language
-*[W3C]: World Wide Web Consortium
 
 [Welcome page is here](https://welcome-club.vercel.app/){ .md-button .md-button--primary }
 
@@ -13,7 +11,7 @@ Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit. (2) А вот то�
     text__, images, ... basically anything that can be expressed in Markdown.
 2. Да, это очень интересно
 
-![Image title](https://images.unsplash.com/photo-1514897575457-c4db467cf78e?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D){ align=left }
+![Image title](https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?q=80&w=2971&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D){ align=left }
 
 
 
