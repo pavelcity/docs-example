@@ -7,26 +7,29 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - content.tooltips
+#    - toc.integrate
+
   palette:
     - scheme: default
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
       primary: teal
-      accent: purple
+      accent: blue
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
       primary: teal
       accent: lime
+
   plugins:
     - social
 
@@ -38,6 +41,8 @@ theme:
         link: https://twitter.com/TheJamesWillett
       - icon: fontawesome/brands/linkedin
         link: https://www.linkedin.com/in/willettjames/
+      - icon: fontawesome/brands/mastodon
+        link: https://fosstodon.org/@squidfunk
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -52,16 +57,21 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - md_in_html
+  - abbr
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 copyright: |
   &copy; 2024 <a href="https://welcome-club.vercel.app/"  target="_blank" rel="noopener">GameApp</a>
 
-#markdown_extensions:
-#  - attr_list
-#  - md_in_html
-#  - pymdownx.superfences
-#  - md_in_html
-#  - abbr
-#  - pymdownx.snippets
 
   
