@@ -1,11 +1,11 @@
-site_name: GameApp Docs
+site_name: GameApp
 site_url: https://welcome-club.vercel.app/
 
 theme:
   name: material
   language: ru
   features:
-    - navigation.tabs
+#    - navigation.tabs
     - navigation.sections
     - navigation.top
     - search.suggest
